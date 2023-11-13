@@ -1,15 +1,39 @@
-div{
-    border: 1px salmon solid;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 252, 252);
+}
+
+.main{
+    text-align: center;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pixelStyle{
+    /* border: 1px salmon solid; */
     flex: 1;
     width: 100%;
 }
 #grid-container{
     display: flex;
     flex-direction: column;
-    height: 600px;
-    width: 600px;
+    height: 460px;
+    width: 460px;
+    
+    background-color: white;
+    box-shadow: 2px 2px 6px 1px #c9c9c9;
 }
 
 .row{
     display: flex;
+}
+.controls{
+    margin: 30px 0px;
+    /* height: 60px; */
 }
