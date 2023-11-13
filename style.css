@@ -1,0 +1,15 @@
+div{
+    border: 1px salmon solid;
+    flex: 1;
+    width: 100%;
+}
+#grid-container{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+}
+
+.row{
+    display: flex;
+}
